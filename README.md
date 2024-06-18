@@ -1,4 +1,4 @@
-# AVOwithMie - Client
+# AVOwithMie - Server
 
 ## Overview
 
@@ -40,6 +40,20 @@ This project uses Tailwind CSS for styling and DaisyUI for UI components, ensuri
 The frontend interacts with a backend service that handles data management and server-side logic. You can access the backend API here:
 
 - **AVOwithMie Server:** [https://avowithmie-server.onrender.com/](https://avowithmie-server.onrender.com/)
+
+## Thông tin LOGIN
+
+```bash
+https://admin.avowithmie.meou.io.vn
+```
+```bash
+# Tài khoản
+admin@gmail.com
+```
+```bash
+# Mật khẩu
+Admin123@
+```
 
 ## Contributing
 

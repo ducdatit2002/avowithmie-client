@@ -1,12 +1,15 @@
-import { createStore, applyMiddleware, compose } from 'redux';
-import { thunk } from 'redux-thunk'; // Incorrect import
-import { combineReducers } from 'redux';
-import { userReducer } from '../reducer/reducerUser'; // Adjust the path as needed
+import { combineReducers } from "redux";
+import authReducer from "./reducerAuth";
+import userReducer from "./reducerUser";
+import bookReducer from "./reducerBook";
+import { podcastReducer } from "./reducerPodcast";
+
 
 const rootReducer = combineReducers({
-  user: userReducer
+  auth: authReducer,
+  books: bookReducer,
+  users : userReducer,
+  podcasts: podcastReducer
 });
 
-const composeEnhancers = window.__REDUX_DEVTOOLS_EXTENSION_COMPOSE__ || compose; // For Redux DevTools
-
-export const store = createStore(rootReducer, composeEnhancers(applyMiddleware(thunk)));
+export default rootReducer;
