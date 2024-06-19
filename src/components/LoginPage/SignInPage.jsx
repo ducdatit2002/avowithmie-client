@@ -25,12 +25,10 @@ function SignInPage() {
         <div className="relative z-20 mt-auto">
           <blockquote className="space-y-2">
             <p className="text-lg">
-              &ldquo;A technical platform supporting the assessment of the level
-              of achievement of course learning outcomes, contributing to
-              academic program quality assurance &rdquo;
+              &ldquo;A website for manage user, book and podcast &rdquo;
             </p>
             <p className="text-sm text-white_blue">Contact: +84 90 285 0103 </p>
-            <footer className="text-sm">AIoT LAB VN</footer>
+            <footer className="text-sm">Duc Dat & Mie</footer>
           </blockquote>
         </div>
       </div>
@@ -50,7 +48,7 @@ function SignInPage() {
             <br></br>
             Please contact to the admin.
             <br></br>
-            Email: info@aiotlab.vn
+            Email: ducdatit2002@gmail.com
           </p>
         </div>
       </div>
