@@ -9,7 +9,6 @@ import Select from "../../components/Inputs/Select";
 import Radio from "../../components/Inputs/Radio";
 import Checkbox from "../../components/Inputs/Checkbox";
 import Button from "../../components/Button";
-import logo from "../../images/black_logo.svg";
 import styles from "./styles.module.scss";
 
 const months = [
@@ -90,9 +89,6 @@ const SignUp = () => {
 
 	return (
 		<div className={styles.container}>
-			<div className={styles.logo}>
-				<img src={logo} alt="logo" />
-			</div>
 			<h1 className={styles.heading}>Sign up for free to start listening.</h1>
 			<Button
 				label="Sign up with Facebook"

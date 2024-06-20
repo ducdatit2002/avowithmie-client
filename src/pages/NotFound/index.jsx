@@ -16,14 +16,6 @@ const NotFound = () => {
 					<span onClick={() => history.push("/home")}>Go Back Home</span>
 				</div>
 			</div>
-			<div className={styles.right}>
-				<img src="./images/record.svg" alt="record" className={styles.record} />
-				<img
-					src="./images/record-arm.svg"
-					alt="record-arm"
-					className={styles.record_arm}
-				/>
-			</div>
 		</div>
 	);
 };
